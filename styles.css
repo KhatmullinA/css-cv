@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #88efa0;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(0, 255, 47);
+}
+
+a:visited {
+  color: rgb(118, 118, 118);
+}
+
+h1 {
+  color: rgb(45, 47, 46);
+  margin-bottom: 20px;
+}
+
+.avatar {
+  width: 300px;
+  border-radius: 28px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+@media (max-width:700px) {
+  .info{
+    text-align: center;
+    display: block;
+  }
+}
+
+.info p {
+  color: rgb(36, 57, 50);
+  margin: 0;
+  font-style: italic;
+  letter-spacing: 1px;
+  /* word-spacing: 21px; */
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text h4 {
+  margin-bottom: 10px;
+}
+
+.social {
+  background: green;
+  padding: 15px;
+  padding: 15px 20px 25px 30px;
+  border: 5px solid red;
+  margin: 20px;
+}
+
+.container {
+  max-width: 750px;
+  margin: auto;
+  padding-bottom: 250px;
+  background: rgb(197, 213, 174);
+  padding-top: 30px;
+}
+
+.bg-yellow {
+  background: #dcf89c;
+}
+
+.bg-green {
+  background: #82b921;
+}
+
+.bg-red {
+  background: #d18c78;
+}
+
+.bg-blue {
+  background: #94adec;
+}
+
+.bg-grey {
+  background: #a29c9a;
+}
+
+.card {
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 20px;
+}
+
+.list li {
+  color: #d18c78;
+  margin-bottom: 10px;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 20px;
+}
+
+/* .table td:nth-child(1), .table td:nth-child(2) {
+  color: rgb(72, 255, 0);
+} */
+/* .table tr:nth-child(even){
+  background-color: rgb(166, 0, 255);
+}
+.table tr:nth-child(odd){
+  background-color: rgb(218, 155, 252);
+} */
+.link-list {
+  list-style: none;
+  padding: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contact h2 {
+  text-align: center;
+}
+
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  color: rgb(77, 69, 69);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: black;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.row>.form-group {
+  width: 50%;
+  margin-right: 20px;
+}
+
+.row>.form-group:first-child {
+  margin-right: 20px;
+}
+
+.btn {
+  background: black;
+  padding: 15px 20px;
+  color: aliceblue;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+.btn:hover {
+  opacity: 0.5;
+}
+
+/* Position */
+
+/* .position {
+  position: relative;
+  border: solid black;
+  margin-top: 40px;
+  padding: 20px;
+  height: 300px;
+}
+
+.box {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  border-radius:50%;
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+} */
